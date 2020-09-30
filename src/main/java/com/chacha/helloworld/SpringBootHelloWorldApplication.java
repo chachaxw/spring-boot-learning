@@ -35,6 +35,6 @@ SpringBootHelloWorldApplication {
             who = "Chacha";
         }
 
-        return StrUtil.format("Hello, ${}!", who);
+        return StrUtil.format("Hello, {}!", who);
     }
 }
