@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * SpringBoot启动类
+ * <p>
+ *      SpringBoot启动类
+ *      Demo: hello world 接口
+ * </p>
  *
  * @package: com.chacha.helloworld
  * @description: SpringBoot启动类
@@ -16,8 +19,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  */
 @SpringBootApplication
 @RestController
-public class
-SpringBootHelloWorldApplication {
+public class SpringBootHelloWorldApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootHelloWorldApplication.class, args);
@@ -30,11 +32,12 @@ SpringBootHelloWorldApplication {
      * @return Hello, ${who}
      */
     @GetMapping("/hello")
-    public String sayHello(@RequestParam(required = false, name = "Chacha") String who) {
+    public String sayHello(@RequestParam(required = false, name = "who") String who) {
         if (StrUtil.isBlank(who)) {
             who = "Chacha";
         }
 
+        System.out.print("请求参数:" + who);
         return StrUtil.format("Hello, {}!", who);
     }
 }
