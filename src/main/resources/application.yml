@@ -15,8 +15,9 @@ spring:
         url: "http://localhost:8000"
         instance:
           metadata:
-            user.name: ${spring.security.user.name}
-            user.password: ${spring.security.user.password}
+            user:
+              name: ${spring.security.user.name}
+              password: ${spring.security.user.password}
   security:
     user:
       name: chacha
