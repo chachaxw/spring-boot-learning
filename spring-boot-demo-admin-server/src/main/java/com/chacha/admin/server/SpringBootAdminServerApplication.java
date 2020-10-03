@@ -14,7 +14,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  *     SpringBoot Server 启动类
  * </p>
  *
- * @package: com.chacha.helloworld
+ * @package: com.chacha.admin.server
  * @description: SpringBoot Server 启动类
  * @author: chacha
  */

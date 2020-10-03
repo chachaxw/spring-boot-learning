@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *     SpringBoot Client 启动类
  * </p>
  *
- * @package: com.chacha.helloworld
+ * @package: com.chacha.admin.client
  * @description: SpringBoot Client 启动类
  * @author: chacha
  */
