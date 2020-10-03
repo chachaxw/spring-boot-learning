@@ -1,0 +1,30 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /chacha
+spring:
+  application:
+    # Spring Boot Admin client project name
+    name: spring-boot-learning-admin-client
+  boot:
+    admin:
+      client:
+        # Spring Boot Admin server location
+        url: "http://localhost:8000"
+        instance:
+          metadata:
+            user:
+              name: ${spring.security.user.name}
+              password: ${spring.security.user.password}
+  security:
+    user:
+      name: chacha
+      password: 123456
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
