@@ -13,7 +13,7 @@ A spring boot learning project
 
 | Module Name                                                 | Description                                                  |
 | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| [helloworld](./src/main/java/com/chacha/helloworld)         | a helloworld spring boot application                         |
-| [properties](./src/main/java/com/chacha/properties)         | read configuration content in spring boot application        |
+| [helloworld](spring-boot-demo-hello-world/src/main/java/com/chacha/helloworld)         | a helloworld spring boot application                         |
+| [properties](spring-boot-demo-properties/src/main/java/com/chacha/properties)         | read configuration content in spring boot application        |
 | [spring boot admin client](spring-boot-demo-admin-client/src/main/java/com/chacha/admin/client)  | spring boot admin client module        |
 | [spring boot admin server](spring-boot-demo-admin-server/src/main/java/com/chacha/admin/server)  | spring boot admin server module        |

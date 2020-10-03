@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /chacha
+spring:
+  application:
+    # Spring Boot Admin client project name
+    name: spring-boot-learning-admin-server
