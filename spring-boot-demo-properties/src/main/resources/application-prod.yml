@@ -1,0 +1,7 @@
+application:
+  name: 生产环境 @artifactId@
+  version: 生产环境 @version@
+developer:
+  name: 生产环境 Chacha
+  website: 生产环境 https://github.com/chachaxw
+  mobile: 生产环境 13798247501

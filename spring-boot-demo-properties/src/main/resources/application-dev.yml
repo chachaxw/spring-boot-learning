@@ -1,0 +1,7 @@
+application:
+  name: 开发环境 @artifactId@
+  version: 开发环境 @version@
+developer:
+  name: 开发环境 Chacha
+  website: 开发环境 https://github.com/chachaxw
+  mobile: 开发环境 13798247501

@@ -11,7 +11,6 @@
         <module name="spring-boot-demo-admin-server" />
         <module name="spring-boot-demo-admin-client" />
         <module name="spring-boot-hello-world" />
-        <module name="spring-boot-learning" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,7 +19,7 @@
       <module name="spring-boot-demo-admin-client" options="-parameters" />
       <module name="spring-boot-demo-admin-server" options="-parameters" />
       <module name="spring-boot-hello-world" options="-parameters" />
-      <module name="spring-boot-learning" options="-parameters" />
+      <module name="spring-boot-learning" options="" />
       <module name="spring-boot-properties" options="-parameters" />
     </option>
   </component>
