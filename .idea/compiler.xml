@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-properties" />
+        <module name="spring-boot-demo-hello-world" />
         <module name="spring-boot-demo-admin-server" />
         <module name="spring-boot-demo-admin-client" />
         <module name="spring-boot-hello-world" />
+        <module name="spring-boot-demo-properties" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,8 +20,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-demo-admin-client" options="-parameters" />
       <module name="spring-boot-demo-admin-server" options="-parameters" />
+      <module name="spring-boot-demo-hello-world" options="-parameters" />
+      <module name="spring-boot-demo-properties" options="-parameters" />
       <module name="spring-boot-hello-world" options="-parameters" />
-      <module name="spring-boot-learning" options="" />
       <module name="spring-boot-properties" options="-parameters" />
     </option>
   </component>

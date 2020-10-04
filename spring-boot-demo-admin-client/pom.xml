@@ -35,10 +35,6 @@
 
         <!-- Spring Boot Admin -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
@@ -57,7 +53,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>spring-boot-demo-admin-server</finalName>
+        <finalName>spring-boot-demo-admin-client</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
