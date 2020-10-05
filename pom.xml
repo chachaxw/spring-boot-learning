@@ -15,6 +15,7 @@
         <module>spring-boot-demo-admin-server</module>
         <module>spring-boot-demo-hello-world</module>
         <module>spring-boot-demo-properties</module>
+        <module>spring-boot-demo-exception-handler</module>
     </modules>
 
     <properties>
