@@ -18,6 +18,7 @@ A spring boot learning project
 
 ## Snapshot
 <img src="assets/images/Screen Shot 2020-10-04 at 9.57.08 AM.png" width="100%" alt="snapshot">
+<img src="assets/images/spring-boot-dependency.png" width="100%" alt="snapshot">
 
 ## ☕️ Module Info
 
@@ -27,3 +28,4 @@ A spring boot learning project
 | [properties](spring-boot-demo-properties/src/main/java/com/chacha/properties)         | read configuration content in spring boot application        |
 | [spring boot admin client](spring-boot-demo-admin-client/src/main/java/com/chacha/admin/client)  | spring boot admin client module        |
 | [spring boot admin server](spring-boot-demo-admin-server/src/main/java/com/chacha/admin/server)  | spring boot admin server module        |
+| [spring boot admin server](spring-boot-demo-exception-handler/src/main/java/com/chacha/exception)  | spring boot exception handler module        |
