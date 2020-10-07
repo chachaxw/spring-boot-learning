@@ -23,10 +23,12 @@ public enum Status {
      * 未知异常
      */
     UNKNOWN_ERROR(500, "服务器出错啦");
+
     /**
      * 状态码
      */
     private Integer code;
+
     /**
      * 内容
      */

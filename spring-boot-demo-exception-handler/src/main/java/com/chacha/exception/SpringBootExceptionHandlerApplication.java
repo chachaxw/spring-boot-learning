@@ -14,9 +14,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author chacha
  */
 @SpringBootApplication
-public class SpringBootExceptionHandler {
+public class SpringBootExceptionHandlerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootExceptionHandler.class, args);
+        SpringApplication.run(SpringBootExceptionHandlerApplication.class, args);
     }
 }
