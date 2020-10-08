@@ -37,7 +37,7 @@ public class DemoExceptionHandler {
     }
 
     /**
-     * 统一 页面 异常处理
+     * 统一页面 异常处理
      *
      * @param exception PageException
      * @return 统一跳转到异常页面
