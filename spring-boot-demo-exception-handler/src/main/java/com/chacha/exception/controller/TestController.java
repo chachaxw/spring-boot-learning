@@ -27,7 +27,7 @@ public class TestController {
         throw new JsonException(Status.UNKNOWN_ERROR);
     }
 
-    @GetMapping("/page")
+    @GetMapping("/error")
     public ModelAndView pageException() {
         throw new PageException(Status.UNKNOWN_ERROR);
     }
