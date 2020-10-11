@@ -28,4 +28,5 @@ A spring boot learning project
 | [properties](spring-boot-demo-properties/src/main/java/com/chacha/properties)         | read configuration content in spring boot application        |
 | [spring boot admin client](spring-boot-demo-admin-client/src/main/java/com/chacha/admin/client)  | spring boot admin client module        |
 | [spring boot admin server](spring-boot-demo-admin-server/src/main/java/com/chacha/admin/server)  | spring boot admin server module        |
-| [spring boot admin server](spring-boot-demo-exception-handler/src/main/java/com/chacha/exception)  | spring boot exception handler module        |
+| [spring boot exception handler](spring-boot-demo-exception-handler/src/main/java/com/chacha/exception)  | spring boot exception handler module        |
+| [spring boot log aop](spring-boot-demo-log-aop/src/main/java/com/chacha/log/aop)  | spring boot log aop demo        |
