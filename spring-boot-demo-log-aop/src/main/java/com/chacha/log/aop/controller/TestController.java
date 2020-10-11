@@ -1,4 +1,4 @@
-package com.chacha.log.controller;
+package com.chacha.log.aop.controller;
 
 import cn.hutool.core.lang.Dict;
 import cn.hutool.core.util.StrUtil;
@@ -25,7 +25,7 @@ public class TestController {
      */
     @GetMapping("/test")
     public Dict test(String who) {
-        return Dict.create().set("who", StrUtil.isBlank(who) ? "me" : who);
+        return Dict.create().set("who", StrUtil.isBlank(who) ? "Chacha" : who);
     }
 
 }
