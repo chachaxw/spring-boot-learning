@@ -32,7 +32,7 @@ public class AopLog {
     /**
      * 切入点
      */
-    @Pointcut("exeuction(public * com.chacha.log.aop.controller.*Controller.*(..))")
+    @Pointcut("execution(public * com.chacha.log.aop.controller.*Controller.*(..))")
     public void log() {
 
     }
@@ -81,7 +81,7 @@ public class AopLog {
 
         Long start = (Long) request.getAttribute(START_TIME);
         Long end = System.currentTimeMillis();
-        log.info("【请求耗时】: {}", end - start);
+        log.info("【请求耗时】: {} mills", end - start);
 
         String header = request.getHeader("User-Agent");
         UserAgent userAgent = UserAgent.parseUserAgentString(header);

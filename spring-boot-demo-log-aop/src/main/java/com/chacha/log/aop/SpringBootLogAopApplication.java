@@ -1,4 +1,4 @@
-package com.chacha.log;
+package com.chacha.log.aop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
