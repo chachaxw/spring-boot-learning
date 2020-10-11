@@ -17,7 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootLogAopApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(com.chacha.helloworld.SpringBootHelloWorldApplication.class, args);
+        SpringApplication.run(SpringBootLogAopApplication.class, args);
     }
 }
 
